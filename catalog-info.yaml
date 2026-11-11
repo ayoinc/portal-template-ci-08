@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-python-api
+  description: "The sample team's \"items\" API: stores, caches and serves items"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: example-org/sample-python-api
+  tags:
+    - python
+    - fastapi
+    - api
+  links:
+    - url: https://fastapi.tiangolo.com/
+      title: FastAPI Documentation
+      icon: docs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/platform-team

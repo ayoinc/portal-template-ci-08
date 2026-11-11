@@ -1,0 +1,9 @@
+site_name: sample-python-api
+site_description: "The sample team's \"items\" API: stores, caches and serves items"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+  - d2
